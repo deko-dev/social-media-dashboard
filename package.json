@@ -1,0 +1,19 @@
+{
+  "name": "social-media-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/assets/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deko-dev/social-media-dashboard.git"
+  },
+  "author": " <Deko-Dev/>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deko-dev/social-media-dashboard/issues"
+  },
+  "homepage": "https://github.com/deko-dev/social-media-dashboard#readme"
+}
