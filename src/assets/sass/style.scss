@@ -166,6 +166,63 @@ body {
             }
         }
     }
+    // Box overview styles
+    .box-overview {
+        margin-top: 20px;
+        height: 35%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        // card-overview
+        .card-overview {
+            padding: 15px;
+            flex: 0 1 calc(25% - 20px);
+            height: 45%;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 5%;
+            // box info styles
+            .box-info {
+                flex: 0 1 calc(60% - 10px);
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .box-red-over {
+                flex: 0 1 calc(40% - 10px);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+                img {
+                    width: 25%;
+                }
+                .change {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    img {
+                        width: 10%;
+                        margin-right: 5px;
+                    }
+                    span {
+                        letter-spacing: 0;
+                        font-weight: 700;
+                        font-size: 12px;
+                    }
+                }
+                .up span {
+                    color: #1EB589 !important;
+                }
+                .down span {
+                    color: #DC414C !important;
+                }
+            }
+        }
+    }
 }
 
 // Body Styles
@@ -190,7 +247,8 @@ body {
                 }
             }
         }
-        .card-data {
+        .card-data,
+        .card-overview {
             background-color: $card-light;
         }
     }
@@ -217,7 +275,8 @@ body {
                 }
             }
         }
-        .card-data {
+        .card-data,
+        .card-overview {
             background-color: $card-dark;
         }
     }
